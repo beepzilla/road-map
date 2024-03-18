@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul li {
 }
 
 .slide-container h2, .slide-container ul li {
-  font-family: 'VT323', monospace; /* 8-bit style font */
+  font-family: 'Press Start 2P', cursive; /* 8-bit style font */
   font-size: 18px; /* Adjusted font size */
 }
 
