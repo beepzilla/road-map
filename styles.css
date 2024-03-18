@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Outfit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  background: linear-gradient(#15306C, #14142F);
+  background: #2D4739; /* Forest green background */
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -9,20 +9,14 @@ body {
   overflow: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Outfit', sans-serif;
-}
-
-p, a, ul li {
-  font-family: 'Dongle', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+h1, h2, h3, h4, h5, h6, p, a, ul li {
+  font-family: 'Press Start 2P', cursive; /* Pixel font */
+  color: #D9ED92; /* Light green color for text */
 }
 
 .main-title {
   width: 100%;
   text-align: center;
-  color: #ffffff;
 }
 
 .slider {
@@ -42,12 +36,11 @@ p, a, ul li {
   backface-visibility: hidden;
   transition: .4s all;
   border-radius: 20px;
-  color: white;
   backdrop-filter: blur(10px);
   border: double 1px transparent;
   border-radius: 30px;
-  background-image: linear-gradient(#0200546b, #0000006b), 
-                    linear-gradient(to right, #661dee73, #009dff75);
+  background-image: linear-gradient(#3FA34D, #3FA34D), /* Darker shade of neon green */
+                    linear-gradient(to right, #4DEB71, #4DEB71); /* Lighter shade of neon green */
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -67,5 +60,5 @@ p, a, ul li {
 }
 
 .slide.active {
-  z-index: 4; 
+  z-index: 4;
 }
