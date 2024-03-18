@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
@@ -10,13 +11,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul li {
-  font-family: 'Press Start 2P', cursive; /* Pixel font */
   color: #D9ED92; /* Light green color for text */
 }
 
 .main-title {
   width: 100%;
   text-align: center;
+  font-family: 'Press Start 2P', cursive; /* Pixel font for the main title */
 }
 
 .slider {
