@@ -16,24 +16,24 @@ var Slider = function() {
       if(index < half) {
         sign = 1;
         zindex = index + 1;
-        x = sliderWidth / 2 - increment * (half - index + 1);
+        x = sliderWidth / 2 - increment * (half - index + 1) - 350; // Adjusted for wider cards
         z =  -increment * (half - index + 1);
       } else if(index > half) {
         sign = -1
         zindex = total - index;
-        x = sliderWidth / 2 + increment * (index - half + 1);
+        x = sliderWidth / 2 + increment * (index - half + 1) - 350; // Adjusted for wider cards
         z =  -increment * (index - half + 1);
       } else {
         sign = 0;
         zindex = total;
-        x = sliderWidth / 2;
+        x = sliderWidth / 2 - 350; // Centered card adjustment
         z = 1;
         scaleX = scaleY = 1.2;
         transformOrigin = 'initial';
       }
       $(element).css(
         {
-          'transform': 'translate3d(' + calculateX(x, sign, 300) + 'px, 0,' + z + 'px) scale3d(' + scaleX + ',' + scaleY + ', 1)',
+          'transform': 'translate3d(' + calculateX(x, sign, 800) + 'px, 0,' + z + 'px) scale3d(' + scaleX + ',' + scaleY + ', 1)', // Width adjusted to 800px
           'z-index': zindex,
           'transform-origin-x': transformOrigin
         }
