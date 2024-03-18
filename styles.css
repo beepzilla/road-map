@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul li {
 .slide {
   margin-left: -50px;
   display: inline-block;
-  width: 800px;
+  width: 400px;
   position: absolute;
   backface-visibility: hidden;
   transition: .4s all;
