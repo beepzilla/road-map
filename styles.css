@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
   background: #2D4739; /* Forest green background */
@@ -57,6 +57,11 @@ h1, h2, h3, h4, h5, h6, p, a, ul li {
 
 .slide-container ul li {
   padding: 0;
+}
+
+.slide-container h2, .slide-container ul li {
+  font-family: 'VT323', monospace; /* 8-bit style font */
+  font-size: 18px; /* Adjusted font size */
 }
 
 .slide.active {
